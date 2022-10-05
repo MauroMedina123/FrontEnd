@@ -2,17 +2,19 @@
     margin-bottom: 10px;
 }
 #Titulo {
+    display: block;
+    text-align: center;
+}
+h1 {
+    display: inline-block;
     position: relative;
     text-align: center;
-    width: 160px;
     background-color: yellowgreen;
     font-family: italic;
+    margin-top: 1%;
+    padding: 10px;
 }
-#Texto {
-    background-color: aliceblue;
-    border: 2px solid red;
-}
-/** media queries **/
+/** media queries 
 @media (max-width: 767.5px) {
     #Titulo {
         margin-top: 1px;
@@ -27,4 +29,4 @@
     #Titulo {
         left: 33%;
     }
-}
+} **/

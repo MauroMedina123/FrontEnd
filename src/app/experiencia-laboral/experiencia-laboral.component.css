@@ -14,10 +14,6 @@ h1 {
     margin-top: 1%;
     padding: 10px;
 }
-#Texto {
-    background-color: aliceblue;
-    border: 2px solid red;
-}
 /** media queries **/
 @media (max-width: 767.5px) {
     #Texto {
